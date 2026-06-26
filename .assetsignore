@@ -1,0 +1,11 @@
+.git/
+node_modules/
+.wrangler/
+.wrangler-dry-run/
+README.md
+review_*.txt
+wrangler.jsonc
+worker.js
+package.json
+package-lock.json
+.assetsignore
