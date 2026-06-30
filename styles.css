@@ -501,3 +501,22 @@ p {
   color: var(--color-text-muted);
   margin-bottom: 0;
 }
+
+.page-note a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.page-note a:hover {
+  text-decoration: underline;
+}
+
+.page-updated {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.content-block ul strong {
+  color: var(--color-text);
+}
