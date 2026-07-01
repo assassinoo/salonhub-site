@@ -2,7 +2,11 @@
 
 Acest repository conține site-ul web static public pentru **SalonHub** — platforma pentru descoperirea saloanelor și gestionarea programărilor.
 
-Conținutul este HTML și CSS pur, fără framework-uri sau build tools. Este separat de aplicația mobilă Expo.
+Conținutul este HTML și CSS pur, fără framework-uri sau build tools. Este separat de aplicația mobilă Expo (`D:\SalonHub\salonhub-mobile`).
+
+**Pentru handoff complet (repo vs production, pagini legale, email, next steps):**
+
+👉 **[`docs/WEBSITE_HANDOFF.md`](docs/WEBSITE_HANDOFF.md)**
 
 ## Structură
 
@@ -43,4 +47,4 @@ npm ci
 npm run deploy
 ```
 
-Domeniul planificat este `salonhub.ro` (configurarea DNS și domeniul custom se fac separat în dashboard).
+Domeniul public, redirect-ul `www` și starea live sunt documentate în [`docs/WEBSITE_HANDOFF.md`](docs/WEBSITE_HANDOFF.md) (secțiunea 2). Configurarea DNS și domeniului custom se face în Cloudflare Dashboard, separat de fișierele HTML.
