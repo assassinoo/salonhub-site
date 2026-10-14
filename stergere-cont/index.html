@@ -3,77 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Solicitare ștergere cont SalonHub — șterge contul din aplicație sau trimite o solicitare prin email.">
+  <meta name="description" content="Solicitare ștergere cont SalonHub — inițiază ștergerea din aplicație sau solicită ajutor prin email.">
   <title>Solicitare ștergere cont — SalonHub</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="/" class="logo">SalonHub</a>
-    </div>
-  </header>
-
+  <header class="site-header"><div class="container header-inner"><a href="/" class="logo">SalonHub</a></div></header>
   <main>
     <article class="page-content">
       <div class="container content-narrow">
-        <p class="back-link">
-          <a href="/">Înapoi la SalonHub</a>
-        </p>
-
+        <p class="back-link"><a href="/">Înapoi la SalonHub</a></p>
         <h1>Solicitare ștergere cont</h1>
-        <p class="page-intro">
-          Poți șterge contul direct din aplicația SalonHub, din secțiunea Cont → Ștergere profil.
-        </p>
+        <p class="page-intro">Poți iniția ștergerea contului direct din aplicația SalonHub, din secțiunea Cont, folosind acțiunea „Ștergere cont”.</p>
 
         <section class="content-block" aria-labelledby="fara-aplicatie">
           <h2 id="fara-aplicatie">Nu mai ai acces la aplicație?</h2>
-          <p>
-            Poți trimite o solicitare la
-            <a href="mailto:stergere-cont@salonhub.ro">stergere-cont@salonhub.ro</a>.
-            Pentru a putea identifica și procesa cererea, include adresa de email folosită
-            pentru contul SalonHub.
-          </p>
-          <a
-            class="btn btn-primary"
-            href="mailto:stergere-cont@salonhub.ro?subject=Solicitare%20%C8%99tergere%20cont%20SalonHub&amp;body=Bun%C4%83%20ziua%2C%0A%0ADoresc%20%C8%99tergerea%20contului%20meu%20SalonHub.%0A%0AAdresa%20de%20email%20asociat%C4%83%20contului%3A%0A%5Bcompleteaz%C4%83%20aici%5D%0A%0AMul%C8%9Bumesc."
-          >Trimite solicitarea prin email</a>
+          <p>Poți trimite o solicitare la adresa dedicată <a href="mailto:stergere-cont@salonhub.ro">stergere-cont@salonhub.ro</a>. Include adresa de email folosită pentru cont, astfel încât să putem identifica solicitarea.</p>
+          <a class="btn btn-primary" href="mailto:stergere-cont@salonhub.ro?subject=Solicitare%20%C8%99tergere%20cont%20SalonHub&amp;body=Bun%C4%83%20ziua%2C%0A%0ADoresc%20%C8%99tergerea%20contului%20meu%20SalonHub.%0A%0AAdresa%20de%20email%20asociat%C4%83%20contului%3A%0A%5Bcompleteaz%C4%83%20aici%5D%0A%0AMul%C8%9Bumesc.">Trimite solicitarea prin email</a>
+          <p class="page-note">Pentru suport general, poți scrie la <a href="mailto:contact@salonhub.ro">contact@salonhub.ro</a>.</p>
         </section>
 
-        <section class="content-block" aria-labelledby="dupa-solicitare">
-          <h2 id="dupa-solicitare">Ce se întâmplă după solicitare?</h2>
-          <ol class="steps-list">
-            <li>Verificăm că solicitarea aparține titularului contului.</li>
-            <li>
-              Îți confirmăm dacă există situații care trebuie rezolvate înainte de ștergere,
-              de exemplu programări viitoare sau roluri active într-un salon.
-            </li>
-            <li>
-              După procesare, contul este șters, iar datele asociate sunt șterse sau anonimizate conform fluxului aplicabil. Putem păstra un minim de informații tehnice despre solicitare atunci când este necesar pentru securitate, prevenirea abuzurilor sau obligații legale.
-            </li>
-          </ol>
-          <p class="page-note">
-            Pentru detalii despre modul în care gestionăm și păstrăm datele, consultă
-            <a href="/confidentialitate">Politica de confidențialitate</a>.
-          </p>
-          <p class="page-note">
-            Pentru protejarea contului, este posibil să îți cerem informații suplimentare pentru verificare.
-          </p>
+        <section class="content-block" aria-labelledby="verificari">
+          <h2 id="verificari">Când ștergerea poate necesita o acțiune suplimentară</h2>
+          <p>Pentru a proteja utilizatorii și funcționarea serviciului, ștergerea poate fi blocată sau poate necesita ajutor din partea echipei SalonHub dacă:</p>
+          <ul class="steps-list">
+            <li>ai programări viitoare active în calitate de client;</li>
+            <li>ești singura persoană cu responsabilitate activă de proprietar sau manager al unui salon;</li>
+            <li>ești singura persoană cu responsabilitate activă de administrator al platformei;</li>
+            <li>o ștergere este deja în curs;</li>
+            <li>apare o situație excepțională care necesită verificare sau intervenție de suport.</li>
+          </ul>
+          <p>În aceste cazuri, aplicația sau echipa de suport îți poate indica pașii care trebuie finalizați înainte ca ștergerea să poată continua.</p>
+        </section>
+
+        <section class="content-block" aria-labelledby="dupa-stergere">
+          <h2 id="dupa-stergere">Ce se întâmplă după ștergere?</h2>
+          <p>La finalizarea cu succes a ștergerii, contul de autentificare și profilul sunt eliminate. Relațiile active ale contului, favoritele, notificările destinate contului, înregistrările pentru tokenuri push și legăturile active relevante de apartenență sau acces sunt eliminate ori detașate, după caz.</p>
+          <p>Istoricul operațional al programărilor poate rămâne, dar identitatea directă și datele de contact ale clientului sunt eliminate sau redactate; clientul poate apărea ca „Client șters”. Mesajele operaționale de anulare sau respingere pot rămâne. Evaluarea și comentariul unei recenzii pot rămâne, cu autorul anonimizat.</p>
+          <p>Datele și imaginile asociate unui salon sau unei activități nu dispar automat atunci când un proprietar își șterge contul personal. Anumite înregistrări operaționale anonimizate și metadate de securitate, audit sau integritate a confidențialității pot rămâne atât timp cât sunt necesare scopului în care sunt menținute, funcționării sigure a serviciului și obligațiilor aplicabile.</p>
+          <p class="page-note">Pentru detalii, consultă <a href="/confidentialitate">Politica de confidențialitate</a>. Regulile platformei sunt disponibile în <a href="/termeni">Termeni și condiții</a>.</p>
+          <p class="page-note">Pentru protejarea contului, putem solicita informații suplimentare pentru verificarea identității înainte de procesarea unei cereri trimise prin email.</p>
         </section>
       </div>
     </article>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p class="copyright">© 2026 SalonHub</p>
-      <nav class="footer-nav" aria-label="Linkuri footer">
-        <a href="/confidentialitate">Politica de confidențialitate</a>
-        <a href="/termeni">Termeni și condiții</a>
-        <a href="/stergere-cont">Ștergere cont</a>
-      </nav>
-      <p class="footer-note">Website în dezvoltare.</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-inner"><p class="copyright">© 2026 SalonHub</p><nav class="footer-nav" aria-label="Linkuri footer"><a href="/confidentialitate">Politica de confidențialitate</a><a href="/termeni">Termeni și condiții</a><a href="/stergere-cont">Ștergere cont</a></nav><p class="footer-note">Website în dezvoltare.</p></div></footer>
 </body>
 </html>
